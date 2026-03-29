@@ -12,22 +12,22 @@ export default function Cta() {
               <div className="ellipse item3" />
               <div className="ellipse item4" />
               <div className="cta-title">
-                <h6>Get More Update</h6>
+                <h6>Ready to Go Everywhere?</h6>
                 <h2>
-                  Sign Up for Your Free <br /> MunAi{" "}
-                  <span className="animation-text">Account!</span>
+                  Start Repurposing Your <br /> YouTube Videos{" "}
+                  <span className="animation-text">Today!</span>
                 </h2>
               </div>
               <div className="cta-content">
                 <p>
-                  Sed ut perspiciatis unde omnis natus sit voluptate <br />{" "}
-                  totam rem aperiam eaque inventore
+                  Join thousands of YouTubers who are growing their audience <br />{" "}
+                  across every platform with ClipJust
                 </p>
                 <div className="flex gap20">
-                  <a href="#" className="tf-button style-1">
-                    Start Your Trial Now <i className="icon-arrow-right2" />
+                  <a href="#" className="tf-button style-1" data-testid="cta-get-started-btn">
+                    Get Started Free <i className="icon-arrow-right2" />
                   </a>
-                  <a href="#" className="tf-button style-1 active">
+                  <a href="#" className="tf-button style-1 active" data-testid="cta-contact-btn">
                     Contact Us <i className="icon-arrow-right2" />
                   </a>
                 </div>

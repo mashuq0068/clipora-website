@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Design() {
   return (
-    <div className="wg-create-design pt-130">
+    <div id="features" className="wg-create-design pt-130">
       <div className="themesflat-container">
         <div className="row">
           <div className="col-md-6">
@@ -15,7 +15,7 @@ export default function Design() {
                 src="/assets/images/bg-section/image-01.png"
                 width={310}
                 height={470}
-                alt="image"
+                alt="AI Clip Detection"
               />
               <div className="place">
                 <svg
@@ -70,23 +70,21 @@ export default function Design() {
                 src="/assets/images/bg-section/image-02.png"
                 width={345}
                 height={345}
-                alt="image"
+                alt="Video Processing"
               />
             </div>
           </div>
           <div className="col-md-6">
             <div className="content">
               <div className="heading-section wow fadeInUp style-2">
-                <h6>Create Amazing Design</h6>
+                <h6>AI-Powered Technology</h6>
                 <div className="main-title">
-                  All the Creative Tools you <br /> Need in{" "}
-                  <span className="animation-text">One Platform</span>
+                  Your Best Moments, <br /> Found{" "}
+                  <span className="animation-text">Automatically</span>
                 </div>
               </div>
               <p className="">
-                We denounce with righteous indignation and dislike men who are
-                beguiled and demoralized by the charms of pleasure of the moment
-                blinded desire that they cannot foresee and trouble
+                Stop spending hours scrubbing through footage. ClipJust's AI analyzes your entire video to identify the moments most likely to capture attention on short-form platforms — hook-worthy intros, emotional peaks, and shareable insights.
               </p>
               <ul className="list-item">
                 {listItems.map((elm, i) => (
@@ -96,8 +94,8 @@ export default function Design() {
                   </li>
                 ))}
               </ul>
-              <a href="#" className="tf-button type-1">
-                <span>Generate AI Post</span>
+              <a href="#" className="tf-button type-1" data-testid="features-try-free-btn">
+                <span>Try ClipJust Free</span>
                 <i className="icon-arrow-right2" />
               </a>
             </div>

@@ -5,8 +5,11 @@ import React from "react";
 import Link from "next/link";
 import { socialMediaIcons } from "@/data/socials";
 
-import { menuItems, menuItems2, menuItems3 } from "@/data/footer";
 export default function Footer1() {
+  const productLinks = ["Features", "Pricing", "How It Works", "API"];
+  const companyLinks = ["About Us", "Blog", "Careers", "Contact"];
+  const resourceLinks = ["Help Center", "Tutorials", "Changelog", "Status"];
+
   return (
     <footer id="footer">
       <Image
@@ -29,7 +32,7 @@ export default function Footer1() {
                   <Image
                     id="logo_footer"
                     src="/assets/images/logo/logo.png"
-                    alt="image"
+                    alt="ClipJust"
                     width={166}
                     height={40}
                     data-retina="/assets/images/logo/logo@2x.png"
@@ -38,12 +41,12 @@ export default function Footer1() {
               </div>
               <div className="avatar-wrapper">
                 <p>
-                  25600+ People Use <span>package</span>
+                  10,000+ Creators Use <span>ClipJust</span>
                 </p>
                 <div className="wg-list-avatar">
                   {imageSources.map((elm, i) => (
                     <a key={i} href="#">
-                      <Image width={100} height={100} src={elm} alt="image" />
+                      <Image width={100} height={100} src={elm} alt="Creator" />
                     </a>
                   ))}
                 </div>
@@ -53,8 +56,8 @@ export default function Footer1() {
           <div className="col-md-3">
             <div className="footer-title">About</div>
             <p className="text">
-              At vero eoset accusamus et iusto <br /> odio dignissimos ducimus
-              blanditiis praesentium voluptatu dele
+              ClipJust helps YouTubers repurpose their <br /> long-form content into viral shorts
+              for every social platform automatically.
             </p>
             <ul className="wg-social">
               {socialMediaIcons.map((icon, index) => (
@@ -67,7 +70,7 @@ export default function Footer1() {
           <div className="col-md-2">
             <div className="footer-title ml-35">Product</div>
             <ul className="wg-menu ml-35">
-              {menuItems.map((item, index) => (
+              {productLinks.map((item, index) => (
                 <li key={index}>
                   <a href="#">{item}</a>
                 </li>
@@ -77,7 +80,7 @@ export default function Footer1() {
           <div className="col-md-2">
             <div className="footer-title">Company</div>
             <ul className="wg-menu">
-              {menuItems2.map((item, index) => (
+              {companyLinks.map((item, index) => (
                 <li key={index}>
                   <a href="#">{item}</a>
                 </li>
@@ -87,7 +90,7 @@ export default function Footer1() {
           <div className="col-md-2">
             <div className="footer-title ml--3">Resources</div>
             <ul className="wg-menu ml--3">
-              {menuItems3.map((item, index) => (
+              {resourceLinks.map((item, index) => (
                 <li key={index}>
                   <a href="#">{item}</a>
                 </li>
@@ -96,9 +99,12 @@ export default function Footer1() {
           </div>
           <div className="col-md-3">
             <div className="footer-title ml--3">Newsletter</div>
+            <p className="text" style={{ marginBottom: '15px' }}>
+              Get tips on video repurposing & platform growth
+            </p>
             <form
               onSubmit={(e) => e.preventDefault()}
-              className="comment-form mt-40 ml--3"
+              className="comment-form mt-20 ml--3"
             >
               <fieldset className="email">
                 <input
@@ -111,11 +117,12 @@ export default function Footer1() {
                   defaultValue=""
                   aria-required="true"
                   required
+                  data-testid="footer-email-input"
                 />
               </fieldset>
               <div className="">
-                <button className="" type="submit">
-                  Sign In
+                <button className="" type="submit" data-testid="footer-subscribe-btn">
+                  Subscribe
                 </button>
               </div>
             </form>
@@ -125,7 +132,7 @@ export default function Footer1() {
               <p className="text mb-0">
                 Copyright @{new Date().getFullYear()},{" "}
                 <a className="tf-color" href="#">
-                  MunAi
+                  ClipJust
                 </a>{" "}
                 All Rights Reserved
               </p>

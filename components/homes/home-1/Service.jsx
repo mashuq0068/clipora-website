@@ -1,17 +1,17 @@
 import { services } from "@/data/services";
 import React from "react";
 
-export default function Helpfull() {
+export default function Service() {
   return (
     <div className="helpful pt-130">
       <div className="themesflat-container">
         <div className="row">
           <div className="col-12">
             <div className="heading-section text-center wow fadeInUp">
-              <h6>What We Provide</h6>
+              <h6>Supported Platforms</h6>
               <div className="main-title">
-                Discover More Helpful Social Media <br /> Artificial{" "}
-                <span className="animation-text">Intelligence Features</span>
+                One Video, Content For <br /> Every{" "}
+                <span className="animation-text">Platform</span>
               </div>
             </div>
           </div>

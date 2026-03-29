@@ -28,17 +28,14 @@ export default function Design2() {
           <div className="col-lg-5 ">
             <div className="content">
               <div className="heading-section wow fadeInUp">
-                <h6>Create Amazing Design</h6>
+                <h6>Smart Caption Technology</h6>
                 <div className="main-title">
-                  Online, Intuitive Design <br /> Editor{" "}
-                  <span className="animation-text">Integration</span>
+                  Captions That Make <br /> People{" "}
+                  <span className="animation-text">Stop Scrolling</span>
                 </div>
               </div>
               <p className="">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque corrupti
-                dolores et quas molestias excepturi sint occaecati cupiditate
-                provident, similique sunt in culpa qui officia deserunt mollitia
+                80% of social media videos are watched on mute. ClipJust automatically generates eye-catching, perfectly-timed captions that boost engagement and watch time. Customize fonts, colors, and animations to match your brand.
               </p>
               <ul className="list-item">
                 {listItems2.map((elm, i) => (
@@ -55,14 +52,14 @@ export default function Design2() {
               <Image
                 className="img-01"
                 src="/assets/images/bg-section/image-03.png"
-                alt="image"
+                alt="Caption Editor"
                 width={640}
                 height={540}
               />
               <Image
                 className="img-02"
                 src="/assets/images/bg-section/image-04.png"
-                alt="image"
+                alt="Caption Preview"
                 width={345}
                 height={345}
               />

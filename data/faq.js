@@ -1,153 +1,41 @@
 export const faqs = [
   {
     id: 1,
-    title: "Generate copy in seconds ?",
+    title: "How does ClipJust find the best clips from my videos?",
     content:
-      "Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium totam rem aperiam eaque quae abillo inventore veritatis",
+      "Our AI analyzes your video for engagement signals like speech patterns, visual changes, and content hooks. It identifies moments that are most likely to capture attention on short-form platforms and ranks them by viral potential.",
     active: true,
   },
   {
     id: 2,
-    title: "Why Importance Of Copy.Ai ?",
+    title: "What platforms can I export clips to?",
     content:
-      "Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium totam rem aperiam eaque quae abillo inventore veritatis",
+      "ClipJust exports clips optimized for YouTube Shorts, TikTok, Instagram Reels, LinkedIn, Facebook Stories, and Twitter/X. Each export is formatted with the correct aspect ratio, duration, and file format for that specific platform.",
     active: false,
   },
   {
     id: 3,
-    title: "Need Any Team Members ?",
+    title: "How long does it take to process a video?",
     content:
-      "Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium totam rem aperiam eaque quae abillo inventore veritatis",
+      "Most videos are processed in under 5 minutes. For longer videos (60+ minutes), processing may take 10-15 minutes. Pro users get priority processing for even faster results.",
     active: false,
   },
   {
     id: 4,
-    title: "What Is Artificial Intelligence ?",
+    title: "Can I edit the clips before downloading?",
     content:
-      "Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium totam rem aperiam eaque quae abillo inventore veritatis",
+      "Yes! You can trim clips, adjust timing, edit captions, and apply your brand templates before downloading. Our intuitive editor makes it easy to perfect every clip.",
     active: false,
   },
   {
     id: 5,
-    title: "Why We Get Artificial Intelligence Services ?",
+    title: "Do captions work in multiple languages?",
     content:
-      "Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium totam rem aperiam eaque quae abillo inventore veritatis",
+      "ClipJust supports auto-captions in over 50 languages. Our AI automatically detects the language of your video and generates accurate, timed captions that you can edit and style.",
     active: false,
   },
 ];
 
-export const faqs2 = [
-  {
-    id: 1,
-    title: "Generate copy in seconds ?",
-    content:
-      "To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage find fault chooses",
-  },
-  {
-    id: 2,
-    title: "Why Importance Of Copy.Ai ?",
-    content:
-      "To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage find fault chooses",
-  },
-  {
-    id: 3,
-    title: "What Is Artificial Intelligence ?",
-    content:
-      "To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage find fault chooses",
-  },
-  {
-    id: 4,
-    title: "How Much Pricing For Copy Website ?",
-    content:
-      "To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage find fault chooses",
-  },
-  {
-    id: 5,
-    title: "Enter your post’s title and keyword ?",
-    content:
-      "To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage find fault chooses",
-  },
-  {
-    id: 6,
-    title: "Review your outline and main talking points ?",
-    content:
-      "To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage find fault chooses",
-  },
-  {
-    id: 7,
-    title: "Generate your first draft ?",
-    content:
-      "To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage find fault chooses",
-  },
-  {
-    id: 8,
-    title: "Edit, polish, and publish ?",
-    content:
-      "To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage find fault chooses",
-  },
-];
-
-export const faqs3 = [
-  {
-    id: 1,
-    title: "Generate copy in seconds ?",
-    content:
-      "Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium totam rem aperiam eaque quae abillo inventore veritatis",
-  },
-  {
-    id: 2,
-    title: "Why Importance Of Copy.Ai ?",
-    content:
-      "Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium totam rem aperiam eaque quae abillo inventore veritatis",
-  },
-  {
-    id: 3,
-    title: "Need Any Team Members ?",
-    content:
-      "Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium totam rem aperiam eaque quae abillo inventore veritatis",
-  },
-  {
-    id: 4,
-    title: "What Is Artificial Intelligence ?",
-    content:
-      "Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium totam rem aperiam eaque quae abillo inventore veritatis",
-  },
-  {
-    id: 5,
-    title: "Why We Get Artificial Intelligence Services ?",
-    content:
-      "Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium totam rem aperiam eaque quae abillo inventore veritatis",
-  },
-];
-export const faqs4 = [
-  {
-    id: 1,
-    title: "Generate copy in seconds ?",
-    content:
-      "Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium totam rem aperiam eaque quae abillo inventore veritatis",
-  },
-  {
-    id: 2,
-    title: "Why Importance Of Copy.Ai ?",
-    content:
-      "Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium totam rem aperiam eaque quae abillo inventore veritatis",
-  },
-  {
-    id: 3,
-    title: "Need Any Team Members ?",
-    content:
-      "Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium totam rem aperiam eaque quae abillo inventore veritatis",
-  },
-  {
-    id: 4,
-    title: "What Is Artificial Intelligence ?",
-    content:
-      "Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium totam rem aperiam eaque quae abillo inventore veritatis",
-  },
-  {
-    id: 5,
-    title: "Why We Get Artificial Intelligence Services ?",
-    content:
-      "Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium totam rem aperiam eaque quae abillo inventore veritatis",
-  },
-];
+export const faqs2 = faqs;
+export const faqs3 = faqs;
+export const faqs4 = faqs;

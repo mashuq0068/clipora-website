@@ -1,7 +1,7 @@
 import Home from "./(homes)/home-1/page";
 export const metadata = {
-  title: "Home 1 || MunAi - AI Writer & Copywriting Nextjs Template",
-  description: "MunAi - AI Writer & Copywriting Nextjs Template",
+  title: "Clip Just | Upload Once. Go Everywhere.",
+  description: "Turn Your YouTube Videos into TikTok, Instagram, LinkedIn, and Facebook Content Automatically",
 };
 export default function page() {
   return (

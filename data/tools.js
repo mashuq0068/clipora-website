@@ -2,54 +2,54 @@ export const tools = [
   {
     id: 1,
     iconClass: "icon-alarm-clock",
-    title: "Save Time and Effort",
+    title: "Save 10+ Hours Weekly",
     description:
-      "Must explain to you how all this mistaken idea seen denouncing pleasure and praising",
+      "Stop spending hours editing shorts. Our AI does it in minutes so you can focus on creating great content.",
     order: "01",
     delay: "0s",
   },
   {
     id: 2,
-    iconClass: "icon-pen",
-    title: "Eliminate Writer’s Block",
+    iconClass: "icon-chart-line",
+    title: "Never Miss a Viral Moment",
     description:
-      "Must explain to you how all this mistaken idea seen denouncing pleasure and praising",
+      "AI analyzes engagement patterns to find clips with the highest viral potential from your videos.",
     order: "02",
     delay: "0.2s",
   },
   {
     id: 3,
-    iconClass: "icon-address",
-    title: "Post Consistently",
+    iconClass: "icon-share",
+    title: "Be Everywhere at Once",
     description:
-      "Must explain to you how all this mistaken idea seen denouncing pleasure and praising",
+      "Your audience is on TikTok, Instagram, LinkedIn, and Facebook. Now you can be too — automatically.",
     order: "03",
     delay: "0s",
   },
   {
     id: 4,
     iconClass: "icon-maintenance",
-    title: "Customize Your Posts",
+    title: "Captions That Convert",
     description:
-      "Must explain to you how all this mistaken idea seen denouncing pleasure and praising",
+      "Auto-generated captions optimized for each platform to maximize engagement and watch time.",
     order: "04",
     delay: "0.2s",
   },
   {
     id: 5,
     iconClass: "icon-setting",
-    title: "Summarize & Simplify",
+    title: "Brand Consistency",
     description:
-      "Must explain to you how all this mistaken idea seen denouncing pleasure and praising",
+      "Apply your brand colors, fonts, and templates across all clips for a professional look everywhere.",
     order: "05",
     delay: "0s",
   },
   {
     id: 6,
     iconClass: "icon-toolbox",
-    title: "Repurpose Your Content",
+    title: "Batch Processing",
     description:
-      "Must explain to you how all this mistaken idea seen denouncing pleasure and praising",
+      "Process your entire video library at once. Turn months of content into years of short-form content.",
     order: "06",
     delay: "0.2s",
   },
@@ -59,36 +59,36 @@ export const tools2 = [
   {
     id: 1,
     icon: "icon-folders",
-    title: "AI Copyrighting",
+    title: "AI Clip Detection",
     description:
-      "Must explain to you how all this mistaken idea seen denouncing pleasure",
+      "Find the best moments from your videos automatically",
     order: "01",
     delay: "0s",
   },
   {
     id: 2,
     icon: "icon-code",
-    title: "Coding Assistant",
+    title: "Smart Captions",
     description:
-      "Must explain to you how all this mistaken idea seen denouncing pleasure",
+      "Auto-generated captions that boost engagement",
     order: "02",
     delay: "0.1s",
   },
   {
     id: 3,
     icon: "icon-images",
-    title: "Image Generator",
+    title: "Multi-Platform Export",
     description:
-      "Must explain to you how all this mistaken idea seen denouncing pleasure",
+      "Optimized formats for every social platform",
     order: "03",
     delay: "0.2s",
   },
   {
     id: 4,
     icon: "icon-chart-network",
-    title: "AI Social Media",
+    title: "Viral Score",
     description:
-      "Must explain to you how all this mistaken idea seen denouncing pleasure",
+      "AI rates your clips for viral potential",
     order: "04",
     delay: "0.3s",
   },
@@ -97,49 +97,49 @@ export const tools3 = [
   {
     id: 1,
     icon: "icon-folder",
-    title: "Blog Post & Articles",
+    title: "YouTube Shorts",
     description:
-      "Must explain to you how all this mistaken idea seen denouncing pleasure and praising",
+      "Convert your long-form YouTube videos into engaging YouTube Shorts",
     order: "01",
   },
   {
     id: 2,
-    icon: "icon-email",
-    title: "Social Media Ads",
+    icon: "icon-tiktok",
+    title: "TikTok",
     description:
-      "Must explain to you how all this mistaken idea seen denouncing pleasure and praising",
+      "Create TikTok-ready vertical videos with trending formats",
     order: "02",
   },
   {
     id: 3,
-    icon: "icon-gif",
-    title: "eCommerce Copy",
+    icon: "icon-instagram",
+    title: "Instagram Reels",
     description:
-      "Must explain to you how all this mistaken idea seen denouncing pleasure and praising",
+      "Generate Instagram Reels that match the platform's style",
     order: "03",
   },
   {
     id: 4,
-    icon: "icon-device",
-    title: "Website Copy",
+    icon: "icon-linkedin",
+    title: "LinkedIn",
     description:
-      "Must explain to you how all this mistaken idea seen denouncing pleasure and praising",
+      "Professional clips formatted for LinkedIn's audience",
     order: "04",
   },
   {
     id: 5,
-    icon: "icon-diamon",
-    title: "Digital Add Copy",
+    icon: "icon-facebook",
+    title: "Facebook",
     description:
-      "Must explain to you how all this mistaken idea seen denouncing pleasure and praising",
+      "Square and vertical videos optimized for Facebook Stories and Reels",
     order: "05",
   },
   {
     id: 6,
-    icon: "icon-cart",
-    title: "Buy & Sales Copy",
+    icon: "icon-twitter",
+    title: "Twitter/X",
     description:
-      "Must explain to you how all this mistaken idea seen denouncing pleasure and praising",
+      "Quick, punchy clips perfect for Twitter's fast-paced feed",
     order: "06",
   },
 ];

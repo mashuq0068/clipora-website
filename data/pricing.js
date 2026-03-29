@@ -1,100 +1,100 @@
 export const pricingPlans = [
   {
     id: 1,
-    title: "Basic Plan",
-    limit: 2000,
+    title: "Starter",
+    limit: 5,
     description:
-      "Accusamus etiusto dignissimos ducim blanditiis praesen voluptatum",
-    price: "$19.99",
-    priceYearly: "$199.99",
+      "Perfect for getting started with video repurposing",
+    price: "$19",
+    priceYearly: "$190",
     period: "per month",
     link: "#",
     features: [
       {
         icon: "icon-check",
-        text: "15,853 Monthly Word Limit",
+        text: "5 Videos per month",
       },
       {
         icon: "icon-check",
-        text: "12+ Templates",
+        text: "Up to 10 clips per video",
       },
       {
         icon: "icon-check",
-        text: "35+ Languages",
+        text: "Auto-captions included",
       },
       {
         icon: "icon-check",
-        text: "Advance Editor Tool",
+        text: "3 Platform exports",
       },
       {
         icon: "icon-check",
-        text: "Custom Managements",
+        text: "720p Export Quality",
       },
     ],
   },
   {
     id: 2,
-    title: "Standard Plan",
-    limit: 3000,
+    title: "Creator",
+    limit: 20,
     description:
-      "Accusamus etiusto dignissimos ducim blanditiis praesen voluptatum",
-    price: "$49.99",
-    priceYearly: "$499.99",
+      "For active YouTubers who post consistently",
+    price: "$49",
+    priceYearly: "$490",
     period: "per month",
     link: "#",
     features: [
       {
         icon: "icon-check",
-        text: "15,853 Monthly Word Limit",
+        text: "20 Videos per month",
       },
       {
         icon: "icon-check",
-        text: "12+ Templates",
+        text: "Unlimited clips per video",
       },
       {
         icon: "icon-check",
-        text: "35+ Languages",
+        text: "Auto-captions + Custom styles",
       },
       {
         icon: "icon-check",
-        text: "Advance Editor Tool",
+        text: "All platform exports",
       },
       {
         icon: "icon-check",
-        text: "Custom Managements",
+        text: "1080p Export Quality",
       },
     ],
   },
   {
     id: 3,
-    title: "Premium Plan",
-    limit: 5000,
+    title: "Pro",
+    limit: 100,
     description:
-      "Accusamus etiusto dignissimos ducim blanditiis praesen voluptatum",
-    price: "$99.99",
-    priceYearly: "$999.99",
+      "For power users and agencies",
+    price: "$99",
+    priceYearly: "$990",
     period: "per month",
     link: "#",
     features: [
       {
         icon: "icon-check",
-        text: "15,853 Monthly Word Limit",
+        text: "Unlimited Videos",
       },
       {
         icon: "icon-check",
-        text: "12+ Templates",
+        text: "Unlimited clips per video",
       },
       {
         icon: "icon-check",
-        text: "35+ Languages",
+        text: "Brand templates & presets",
       },
       {
         icon: "icon-check",
-        text: "Advance Editor Tool",
+        text: "Priority processing",
       },
       {
         icon: "icon-check",
-        text: "Custom Managements",
+        text: "4K Export Quality",
       },
     ],
   },
@@ -103,29 +103,29 @@ export const pricingPlans = [
 export const pricingPlans2 = [
   {
     id: 1,
-    title: "Basic Plan",
-    description: "Sed ut perspiciatis unde natus totam aperiam",
-    peopleUse: "25600+",
-    priceMonthly: "$19.99",
-    priceYearly: "$199.99",
+    title: "Starter",
+    description: "Perfect for getting started with video repurposing",
+    peopleUse: "10000+",
+    priceMonthly: "$19",
+    priceYearly: "$190",
     features: [
       {
-        number: "15,853",
-        text: "Monthly Word Limit",
+        number: "5",
+        text: "Videos per month",
       },
       {
-        number: "12+",
-        text: "Templates",
+        number: "10",
+        text: "Clips per video",
       },
       {
-        number: "35+",
-        text: "Languages",
+        number: "3",
+        text: "Platforms",
       },
       {
-        text: "Advance Editor Tool",
+        text: "Auto-captions",
       },
       {
-        text: "Custom Managements",
+        text: "720p Quality",
       },
     ],
     avatars: [
@@ -141,29 +141,29 @@ export const pricingPlans2 = [
   },
   {
     id: 2,
-    title: "Standard Plan",
-    description: "Sed ut perspiciatis unde natus totam aperiam",
-    peopleUse: "836420+",
-    priceMonthly: "$49.99",
-    priceYearly: "$499.99",
+    title: "Creator",
+    description: "For active YouTubers who post consistently",
+    peopleUse: "25000+",
+    priceMonthly: "$49",
+    priceYearly: "$490",
     features: [
       {
-        number: "15,853",
-        text: "Monthly Word Limit",
+        number: "20",
+        text: "Videos per month",
       },
       {
-        number: "12+",
-        text: "Templates",
+        number: "∞",
+        text: "Clips per video",
       },
       {
-        number: "35+",
-        text: "Languages",
+        number: "All",
+        text: "Platforms",
       },
       {
-        text: "Advance Editor Tool",
+        text: "Custom captions",
       },
       {
-        text: "Custom Managements",
+        text: "1080p Quality",
       },
     ],
     avatars: [

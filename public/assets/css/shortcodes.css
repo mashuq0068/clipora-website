@@ -874,9 +874,10 @@
 
 .wg-banner-1 .content .title span {
   color: #6844ed;
-  font-family: "Playfair Display";
-  font-style: italic;
+  /* font-family: "Playfair Display"; */
+  /* font-style: italic; */
   font-size: 65px;
+  /* color:white; */
   font-weight: 700;
   line-height: 67px;
   letter-spacing: -1.95px;

@@ -8,11 +8,11 @@ export default function Tool() {
         <div className="row justify-center">
           <div className="col-12">
             <div className="heading-section text-center wow fadeInUp">
-              <h6>Create Amazing Design</h6>
+              <h6>Why YouTubers Choose ClipJust</h6>
               <div className="main-title">
-                Why Choose MunAi AI Social
-                <br /> Media{" "}
-                <span className="animation-text">Post Generator</span>
+                Everything You Need to Grow
+                <br /> Your{" "}
+                <span className="animation-text">Multi-Platform Presence</span>
               </div>
             </div>
           </div>

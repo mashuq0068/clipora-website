@@ -9,13 +9,13 @@ import Service from "@/components/homes/home-1/Service";
 import Partners from "@/components/homes/home-1/Partners";
 import Pricing from "@/components/homes/home-1/Pricing";
 import Result from "@/components/homes/home-1/Result";
-import Roadmap from "@/components/homes/home-1/Roadmap";
+import HowItWorks from "@/components/homes/home-1/HowItWorks";
 import Tool from "@/components/homes/home-1/Tool";
 import Mouse from "@/components/common/Mouse";
 import ScrollTop from "@/components/common/ScrollTop";
 export const metadata = {
-  title: "Home 1 || MunAi - AI Writer & Copywriting Nextjs Template",
-  description: "MunAi - AI Writer & Copywriting Nextjs Template",
+  title: "ClipJust - Upload Once. Go Everywhere.",
+  description: "Turn your YouTube videos into TikTok, Instagram, LinkedIn, and Facebook content automatically.",
 };
 export default function Home() {
   return (
@@ -26,11 +26,11 @@ export default function Home() {
           <Banner />
           <Result />
           <Partners />
+          <HowItWorks />
           <Features />
           <Tool />
           <Features2 />
           <Service />
-          <Roadmap />
           <Pricing />
           <Faq />
           <Cta />

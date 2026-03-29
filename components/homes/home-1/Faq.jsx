@@ -8,7 +8,7 @@ export default function Faq() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
-      <div className="faqs-wrap">
+      <div id="faq" className="faqs-wrap">
         <div className="themesflat-container">
           <div className="row">
             <div className="col-12">
@@ -16,7 +16,7 @@ export default function Faq() {
                 <h6>FAQs</h6>
                 <div className="main-title">
                   Frequently Asked{" "}
-                  <span className="animation-text">questions</span>
+                  <span className="animation-text">Questions</span>
                 </div>
               </div>
             </div>
@@ -31,9 +31,9 @@ export default function Faq() {
                   src="/assets/images/bg-section/image-05.png"
                   width={560}
                   height={360}
-                  alt="image"
+                  alt="See ClipJust in action"
                 />
-                <a onClick={() => setOpen(true)} className="popup-youtube">
+                <a onClick={() => setOpen(true)} className="popup-youtube" data-testid="faq-video-btn">
                   <div className="icon">
                     <i className="icon-play" />
                   </div>

@@ -89,3 +89,21 @@ a {
 .shop-apply-btn:hover {
   background-color: #6844ed !important;
 }
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fix for fixed header overlap */
+[id] {
+  scroll-margin-top: 100px; /* adjust if header height changes */
+}
+.header-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999; /* always on top */
+  background-color: black;
+}

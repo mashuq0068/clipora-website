@@ -4,8 +4,8 @@ import Counter from "@/components/common/Counter";
 export default function Banner() {
   return (
     <div className="wg-banner-1">
-      <div className="bg-item">
-        <svg
+      <div className="bg-item ">
+        {/* <svg
           className="item-1"
           width={65}
           height={65}
@@ -59,7 +59,7 @@ export default function Banner() {
               <rect width="64.6451" height={65} fill="white" />
             </clipPath>
           </defs>
-        </svg>
+        </svg> */}
         <svg
           className="item-2"
           width={57}
@@ -164,14 +164,14 @@ export default function Banner() {
           <div className="col-xl-6 col-12">
             <div className="content">
               <div className="title">
-                Generate Online Social Media Posts <br /> in{" "}
+                Upload once. <br />
                 <span className="animationtext letters rotate-3 animation-text tf-color">
                   <span className="cd-words-wrapper">
                     <span
                       className="item-text is-visible"
                       style={{ opacity: 1 }}
                     >
-                      {"Seconds for Free"
+                      {"Go everywhere"
                         .split(" ")
                         .join("_")
                         .split("")
@@ -179,163 +179,120 @@ export default function Banner() {
                           <span
                             key={i}
                             className={`rorateLetterAnim ${
-                              elm == "_" ? "blankSpan" : ""
+                              elm === "_" ? "blankSpan" : ""
                             }`}
                             style={{ animationDelay: i * 0.07 + "s" }}
                           >
-                            {elm == "_" ? " " : elm}
+                            {elm === "_" ? " " : elm}
                           </span>
                         ))}
                     </span>
                   </span>
                 </span>
               </div>
+
               <p>
-                Sed ut perspiciatis unde omnis iste natus voluptatem <br />{" "}
-                accusantium totam rem aperiam inventore
+                You're a YouTuber. But your audience is on TikTok, Instagram,
+                LinkedIn, and Facebook too. <br />
+                ClipJust turns your one video into content for every platform —
+                automatically.
               </p>
+
               <div className="grid-button flex gap25 items-center">
                 <a href="#" className="tf-button">
-                  <span>Sign Up With Google</span>
-                  <svg
-                    width={12}
-                    height={12}
-                    viewBox="0 0 12 12"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M11.4375 6.14062C11.4375 9.46875 9.16406 11.8125 5.8125 11.8125C2.57812 11.8125 0 9.23438 0 6C0 2.78906 2.57812 0.1875 5.8125 0.1875C7.35938 0.1875 8.69531 0.773438 9.70312 1.71094L8.10938 3.23438C6.04688 1.24219 2.20312 2.74219 2.20312 6C2.20312 8.03906 3.82031 9.67969 5.8125 9.67969C8.10938 9.67969 8.97656 8.03906 9.09375 7.17188H5.8125V5.17969H11.3438C11.3906 5.48438 11.4375 5.76562 11.4375 6.14062Z"
-                      fill="white"
-                    />
-                  </svg>
+                  <span>Upload Your Video</span>
                 </a>
                 <span>Or</span>
                 <a href="#" className="tf-button active">
-                  <span>Sign Up With LinkedIn</span>
-                  <svg
-                    width={11}
-                    height={11}
-                    viewBox="0 0 11 11"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M2.34375 10.5H0.164062V3.49219H2.34375V10.5ZM1.24219 2.55469C0.5625 2.55469 0 1.96875 0 1.26562C0 0.585938 0.5625 0.0234375 1.24219 0.0234375C1.94531 0.0234375 2.50781 0.585938 2.50781 1.26562C2.50781 1.96875 1.94531 2.55469 1.24219 2.55469ZM10.4766 10.5H8.32031V7.10156C8.32031 6.28125 8.29688 5.25 7.17188 5.25C6.04688 5.25 5.88281 6.11719 5.88281 7.03125V10.5H3.70312V3.49219H5.78906V4.45312H5.8125C6.11719 3.91406 6.82031 3.32812 7.875 3.32812C10.0781 3.32812 10.5 4.78125 10.5 6.65625V10.5H10.4766Z"
-                      fill="#696969"
-                    />
-                  </svg>
+                  <span>Paste YouTube Link</span>
                 </a>
               </div>
             </div>
           </div>
+
           <div className="col-xl-6 col-12 images">
-            <div className=" relative w-full h-full">
+            <div className="relative w-full h-full">
               <div className="border-dashed-line" />
+
+              {/* Step Flow */}
               <div className="box-1">
                 <div className="wrap">
-                  <p>
-                    <a href="#">Open AI Editor</a>
-                  </p>
                   <p className="active">
-                    <a href="#">Customize Post</a>
+                    <a href="#">Upload Video</a>
                   </p>
                   <p>
-                    <a href="#">Download Results</a>
+                    <a href="#">AI Finds Best Moments</a>
                   </p>
-                  <Image
-                    src="/assets/images/item-background/hand.png"
-                    width={60}
-                    height={96}
-                    alt="image"
-                  />
+                  <p>
+                    <a href="#">Download Ready Clips</a>
+                  </p>
                 </div>
               </div>
+
+              {/* AI Processing */}
               <div className="box-2">
                 <div className="wrap">
                   <p>
-                    <a href="#">Cerate your Ai Account</a>
+                    <a href="#">Analyzing your video...</a>
                   </p>
                   <div className="ellipse" />
                   <div className="ellipse-1" />
                   <div className="ellipse-2" />
-                  <Image
-                    src="/assets/images/item-background/hand.png"
-                    width={60}
-                    height={96}
-                    alt="image"
-                  />
                 </div>
               </div>
+
+              {/* Platform Outputs */}
+
               <div className="wrap-user item-1">
                 <h4 className="name">
-                  <a href="#">Thomas C. Turner</a>
+                  <a href="#">YouTube</a>
                 </h4>
-                <p>nature &amp; me before sunset</p>
+                <p>Original long-form video</p>
                 <div className="image">
                   <Image
                     src="/assets/images/avatar/user-01.png"
                     width={215}
                     height={215}
-                    alt="image"
+                    alt="youtube"
                   />
                   <div className="icon">
-                    <i className="icon-facebook" />
-                  </div>
-                  <div className="counter-like counter">
-                    <div className="number-counter">
-                      <Counter parentClass={"number"} max={3} min={0} />
-                      k+
-                    </div>
-                    <i className="icon-heart" />
+                    <i className="icon-youtube" />
                   </div>
                 </div>
               </div>
+
               <div className="wrap-user item-2">
                 <h4 className="name">
-                  <a href="#">Jason A. Hunter</a>
+                  <a href="#">Instagram / TikTok</a>
                 </h4>
-                <p>nature &amp; me before sunset</p>
+                <p>Short viral clips</p>
                 <div className="image">
                   <Image
                     src="/assets/images/avatar/user-02.png"
                     width={216}
                     height={216}
-                    alt="image"
+                    alt="shorts"
                   />
                   <div className="icon">
                     <i className="icon-instagram" />
                   </div>
-                  <div className="counter-like counter">
-                    <div className="number-counter">
-                      <Counter parentClass={"number"} max={3} min={0} />
-                      k+
-                    </div>
-                    <i className="icon-heart" />
-                  </div>
                 </div>
               </div>
+
               <div className="wrap-user item-3">
                 <h4 className="name">
-                  <a href="#">Willard I. Rivera</a>
+                  <a href="#">LinkedIn / Facebook</a>
                 </h4>
-                <p>nature &amp; me before sunset</p>
+                <p>Optimized social posts</p>
                 <div className="image">
                   <Image
                     src="/assets/images/avatar/user-03.png"
                     width={216}
                     height={216}
-                    alt="image"
+                    alt="social"
                   />
                   <div className="icon">
-                    <i className="icon-tiktok" />
-                  </div>
-                  <div className="counter-like counter">
-                    <div className="number-counter">
-                      <Counter parentClass={"number"} max={4} min={0} />
-                      m+
-                    </div>
-                    <i className="icon-heart" />
+                    <i className="icon-linkedin" />
                   </div>
                 </div>
               </div>
