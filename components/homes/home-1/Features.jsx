@@ -84,7 +84,7 @@ export default function Design() {
                 </div>
               </div>
               <p className="">
-                Stop spending hours scrubbing through footage. ClipJust's AI analyzes your entire video to identify the moments most likely to capture attention on short-form platforms — hook-worthy intros, emotional peaks, and shareable insights.
+                Stop spending hours scrubbing through footage. Clipzen's AI analyzes your entire video to identify the moments most likely to capture attention on short-form platforms — hook-worthy intros, emotional peaks, and shareable insights.
               </p>
               <ul className="list-item">
                 {listItems.map((elm, i) => (
@@ -95,7 +95,7 @@ export default function Design() {
                 ))}
               </ul>
               <a href="#" className="tf-button type-1" data-testid="features-try-free-btn">
-                <span>Try ClipJust Free</span>
+                <span>Try Clipzen Free</span>
                 <i className="icon-arrow-right2" />
               </a>
             </div>

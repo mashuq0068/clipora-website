@@ -35,7 +35,7 @@ export default function Design2() {
                 </div>
               </div>
               <p className="">
-                80% of social media videos are watched on mute. ClipJust automatically generates eye-catching, perfectly-timed captions that boost engagement and watch time. Customize fonts, colors, and animations to match your brand.
+                80% of social media videos are watched on mute. Clipzen automatically generates eye-catching, perfectly-timed captions that boost engagement and watch time. Customize fonts, colors, and animations to match your brand.
               </p>
               <ul className="list-item">
                 {listItems2.map((elm, i) => (

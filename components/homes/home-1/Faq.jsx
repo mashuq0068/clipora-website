@@ -31,7 +31,7 @@ export default function Faq() {
                   src="/assets/images/bg-section/image-05.png"
                   width={560}
                   height={360}
-                  alt="See ClipJust in action"
+                  alt="See Clipzen in action"
                 />
                 <a onClick={() => setOpen(true)} className="popup-youtube" data-testid="faq-video-btn">
                   <div className="icon">

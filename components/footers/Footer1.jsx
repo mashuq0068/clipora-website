@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import { socialMediaIcons } from "@/data/socials";
+import Logo from "../common/Logo";
 
 export default function Footer1() {
   const productLinks = ["Features", "Pricing", "How It Works", "API"];
@@ -29,19 +30,12 @@ export default function Footer1() {
             <div className="footer-top">
               <div className="logo-footer" id="logo-footer">
                 <Link href={`/`}>
-                  <Image
-                    id="logo_footer"
-                    src="/assets/images/logo/logo.png"
-                    alt="ClipJust"
-                    width={166}
-                    height={40}
-                    data-retina="/assets/images/logo/logo@2x.png"
-                  />
+                   <Logo isBlack={false}/>
                 </Link>
               </div>
               <div className="avatar-wrapper">
                 <p>
-                  10,000+ Creators Use <span>ClipJust</span>
+                  10,000+ Creators Use <span>Clipzen</span>
                 </p>
                 <div className="wg-list-avatar">
                   {imageSources.map((elm, i) => (
@@ -56,7 +50,7 @@ export default function Footer1() {
           <div className="col-md-3">
             <div className="footer-title">About</div>
             <p className="text">
-              ClipJust helps YouTubers repurpose their <br /> long-form content into viral shorts
+              Clipzen helps YouTubers repurpose their <br /> long-form content into viral shorts
               for every social platform automatically.
             </p>
             <ul className="wg-social">
@@ -132,7 +126,7 @@ export default function Footer1() {
               <p className="text mb-0">
                 Copyright @{new Date().getFullYear()},{" "}
                 <a className="tf-color" href="#">
-                  ClipJust
+                  Clipzen
                 </a>{" "}
                 All Rights Reserved
               </p>

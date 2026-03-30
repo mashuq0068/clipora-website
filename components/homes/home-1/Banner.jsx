@@ -194,16 +194,16 @@ export default function Banner() {
               <p>
                 You're a YouTuber. But your audience is on TikTok, Instagram,
                 LinkedIn, and Facebook too. <br />
-                ClipJust turns your one video into content for every platform —
+                Clipzen turns your one video into content for every platform —
                 automatically.
               </p>
 
               <div className="grid-button flex gap25 items-center">
-                <a href="#" className="tf-button">
+                <a href="https://clipzen-hazel.vercel.app/" target="_blank" rel="noopener noreferrer" className="tf-button">
                   <span>Upload Your Video</span>
                 </a>
                 <span>Or</span>
-                <a href="#" className="tf-button active">
+                <a href="https://clipzen-hazel.vercel.app/" target="_blank" rel="noopener noreferrer" className="tf-button active">
                   <span>Paste YouTube Link</span>
                 </a>
               </div>

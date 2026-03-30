@@ -14,7 +14,7 @@ import Tool from "@/components/homes/home-1/Tool";
 import Mouse from "@/components/common/Mouse";
 import ScrollTop from "@/components/common/ScrollTop";
 export const metadata = {
-  title: "ClipJust - Upload Once. Go Everywhere.",
+  title: "Clipzen - Upload Once. Go Everywhere.",
   description: "Turn your YouTube videos into TikTok, Instagram, LinkedIn, and Facebook content automatically.",
 };
 export default function Home() {

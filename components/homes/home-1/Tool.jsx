@@ -8,7 +8,7 @@ export default function Tool() {
         <div className="row justify-center">
           <div className="col-12">
             <div className="heading-section text-center wow fadeInUp">
-              <h6>Why YouTubers Choose ClipJust</h6>
+              <h6>Why YouTubers Choose Clipzen</h6>
               <div className="main-title">
                 Everything You Need to Grow
                 <br /> Your{" "}

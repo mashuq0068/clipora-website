@@ -91,7 +91,7 @@ export default function Header1() {
               src="/assets/images/logo/logo.png"
               width={166}
               height={40}
-              alt="ClipJust"
+              alt="Clipzen"
               data-retina="/assets/images/logo/logo@2x.png"
             />
           </Link>

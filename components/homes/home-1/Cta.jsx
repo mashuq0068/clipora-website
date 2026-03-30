@@ -21,7 +21,7 @@ export default function Cta() {
               <div className="cta-content">
                 <p>
                   Join thousands of YouTubers who are growing their audience <br />{" "}
-                  across every platform with ClipJust
+                  across every platform with Clipzen
                 </p>
                 <div className="flex gap20">
                   <a href="#" className="tf-button style-1" data-testid="cta-get-started-btn">
